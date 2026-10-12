@@ -10,7 +10,7 @@ We use the large-scale SCI dataset SDU-SCICD10K for training and testing. Downlo
 ## Usage
 
 ### Training
-
+```bash
 cd enhancement 
 
 python train.py \
