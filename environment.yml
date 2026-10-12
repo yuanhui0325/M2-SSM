@@ -1,0 +1,11 @@
+name: jpeg-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - numpy
+  - opencv
+  - scipy
+  - bitstring
+  - cython
