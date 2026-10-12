@@ -18,16 +18,16 @@ python train.py \
   --batch_size 8 \
   --epochs 100 \
   --lr 2e-4
-```
+
 
 ### Testing
-```bash
+
 cd enhancement 
 python test.py \
   --test_dir ./dataset/SDU-SCICD10K/test \
   --checkpoint ./checkpoints/sci_best.pth \
   --qualities 10 20 30 40
-```
+
 
 ## Citation
 If M²-SSM is useful for your research, please consider citing:
