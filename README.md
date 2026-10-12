@@ -12,6 +12,7 @@ We use the large-scale SCI dataset SDU-SCICD10K for training and testing. Downlo
 ### Training
 
 cd enhancement 
+
 python train.py \
   --train_dir ./dataset/SDU-SCICD10K/train \
   --val_dir ./dataset/SDU-SCICD10K/val \
@@ -23,6 +24,7 @@ python train.py \
 ### Testing
 
 cd enhancement 
+
 python test.py \
   --test_dir ./dataset/SDU-SCICD10K/test \
   --checkpoint ./checkpoints/sci_best.pth \
