@@ -2,7 +2,7 @@
 # M²-SSM: Mask-Modulated Mamba-based Quality Enhancement for JPEG Compressed Screen Content Image
 
 ## Introduction
-M²-SSM is a lightweight Mamba-based network for quality enhancement of JPEG-compressed Screen Content Images (SCIs). It aims to suppress blocking and ringing artifacts while restoring sharp text edges and long-range geometric structures with efficient global modeling.
+M²-SSM is a lightweight Mamba-based network for quality enhancement of JPEG-compressed screen content images (SCIs). It aims to suppress blocking and ringing artifacts while restoring sharp text edges and long-range geometric structures with efficient global modeling.
 
 ## Dataset Preparation
 We use the large-scale SCI dataset SDU-SCICD10K for training and testing. Download the dataset from [SunshineSki/Screen-content-image-dataset](https://github.com/SunshineSki/Screen-content-image-dataset).
