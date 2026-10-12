@@ -1,5 +1,4 @@
 
-```markdown
 # M²-SSM: Mask-Modulated Mamba-based Quality Enhancement for JPEG Compressed Screen Content Image
 
 ## Introduction
@@ -11,7 +10,7 @@ We use the large-scale SCI dataset SDU-SCICD10K for training and testing. Downlo
 ## Usage
 
 ### Training
-```bash
+
 cd enhancement 
 python train.py \
   --train_dir ./dataset/SDU-SCICD10K/train \
